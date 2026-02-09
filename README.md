@@ -14,12 +14,14 @@ npx specmatic
 
 **Technology Stack**
 ___
+
 -Specmatic
 -OpenAPI
 -Visual Studio
 
 **Open API files**
 ___
+
 -employees.yaml
 -service.yaml
 
