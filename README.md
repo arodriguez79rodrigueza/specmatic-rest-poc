@@ -20,7 +20,7 @@ npx specmatic
 -employees.yaml
 -service.yaml
 
-**How To Execute Contract Test To Validate Provider"
+**How To Execute Contract Test To Validate Provider**
 
 ```
 npx specmatic test service.yaml --testBaseURL=https://my-json-server.typicode.com/specmatic/specmatic-documentation-examples
