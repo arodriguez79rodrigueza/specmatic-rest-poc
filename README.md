@@ -1,6 +1,7 @@
 # Specmatic REST POC
 
 **Specmatic Set Up**
+___
 
 1. Install specmatic npm
 ```
