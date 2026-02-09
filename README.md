@@ -13,15 +13,18 @@ npx specmatic
 ```
 
 **Technology Stack**
+___
 -Specmatic
 -OpenAPI
 -Visual Studio
 
 **Open API files**
+___
 -employees.yaml
 -service.yaml
 
 **How To Execute Contract Test To Validate Provider**
+___
 
 ```
 npx specmatic test service.yaml --testBaseURL=https://my-json-server.typicode.com/specmatic/specmatic-documentation-examples
