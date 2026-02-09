@@ -1,6 +1,6 @@
 # specmatic-rest-poc
 
-Specmatic Set up
+##Specmatic Set up
 
 1. Install specmatic npm
 ```
