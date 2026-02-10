@@ -12,22 +12,16 @@ npm install -g specmatic
 npx specmatic
 ```
 
-**Technology Stack**
-___
-
+# Technology Stack
 -Specmatic
 -OpenAPI
 -Visual Studio
 
-**Open API files**
-___
-
+# Open API files
 -employees.yaml
 -service.yaml
 
-**How To Execute Contract Test To Validate Provider**
-___
-
+# How To Execute Contract Test To Validate the Provider
 ```
 npx specmatic test service.yaml --testBaseURL=https://my-json-server.typicode.com/specmatic/specmatic-documentation-examples
 ```
