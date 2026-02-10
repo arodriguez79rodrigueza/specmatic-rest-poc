@@ -1,0 +1,59 @@
+openapi: 3.0.1
+info:
+  title: Contract for the petstore service
+  version: '1'
+
+paths:
+  /pets/{petid}:
+    get:
+      summary: Should be able to get a pet by petId
+      parameters:
+        - name: petid
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 10
+          examples:
+            SCOOBY_200_OK:
+              value: 1
+            INVALID_PET_ID:
+              value: 2
+      responses:
+        '200':
+          description: Should be able to get a pet by petId
+          content:
+            application/json:
+              schema:
+                required:
+                  - id
+                  - name
+                  - status
+                  - type
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  type:
+                    type: string
+                  status:
+                    type: string
+              examples:
+                SCOOBY_200_OK:
+                  value:
+                    id: 1
+                    name: Scooby
+                    type: Golden Retriever
+                    status: Adopted
+        '404':
+          description: Invalid petId supplied
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                INVALID_PET_ID:
+                  value: {}
