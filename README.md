@@ -1,5 +1,5 @@
 # Specmatic REST POC
-This repository is intended for Contract Testing training by using Specmatic
+This repository is intended for Contract Testing training by using Specmatic.
 
 # Specmatic Set Up
 
