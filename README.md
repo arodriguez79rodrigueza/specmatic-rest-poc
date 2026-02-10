@@ -22,9 +22,13 @@ npx specmatic
 - service.yaml
 
 # How To Execute Contract Test To Validate the Provider
-1. Execute the following code on Visual Studio by using a CMD window.
+1. Execute the following code on Visual Studio for service.yaml by using a CMD window.
 ```
 npx specmatic test service.yaml --testBaseURL=https://my-json-server.typicode.com/specmatic/specmatic-documentation-examples
+```
+2. Execute the following code on Visual Studio for employees.yaml by using a CMD window
+```
+npx specmatic test employees.yaml --testBaseURL https://my-json-server.typicode.com
 ```
 
 
