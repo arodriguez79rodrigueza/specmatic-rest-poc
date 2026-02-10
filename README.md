@@ -13,13 +13,13 @@ npx specmatic
 ```
 
 # Technology Stack
--Specmatic
--OpenAPI
--Visual Studio
+- Specmatic
+- OpenAPI
+- Visual Studio
 
 # Open API files
--employees.yaml
--service.yaml
+- employees.yaml
+- service.yaml
 
 # How To Execute Contract Test To Validate the Provider
 ```
